@@ -33,7 +33,7 @@ An inventory of a host's agents is therefore a starting point for coverage decis
 
 **AgentGuard DeepScan** performs static security scanning of skills, plugins, MCP packages, and code repositories. GitHub repositories can be scanned at a specified branch, tag, or commit.
 
-Detection areas include command execution, remote loading, credential reads, data exfiltration, obfuscation, prompt injection, Trojan distribution, social engineering, Web3 risks, hardcoded personal data, and LLM relay hijacking.
+Detection areas include command execution, remote loading, credential reads, data exfiltration, obfuscation, prompt injection, Trojan distribution, social engineering, blockchain risks, hardcoded personal data, and LLM relay hijacking.
 
 DeepScan also decodes Base64 content for rescanning and examines instructions embedded in Markdown and `SKILL.md` files. This is relevant because agent components can contain both executable code and instructions that shape the agent's behavior.
 
@@ -53,7 +53,7 @@ A scan result supports a review decision. It is not a guarantee that a component
 
 The trust registry identifies a component by its **source, version, and content hash**. This connects a trust decision to the exact material reviewed, rather than only to a familiar package name.
 
-Permissions can be assigned by capability, including network access, file access, execution, credential access, and Web3 actions. A version or hash change downgrades trust and requires review again.
+Permissions can be assigned by capability, including network access, file access, execution, credential access, and blockchain actions. A version or hash change downgrades trust and requires review again.
 
 On supported integrations, session-start scanning reviews newly installed skills and registers them as trusted, restricted, or untrusted according to risk.
 

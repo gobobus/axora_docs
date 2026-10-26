@@ -58,7 +58,7 @@ Daily patrol checks skill integrity, credential exposure, network exposure, sche
 
 ### Security checkup
 
-Checkup evaluates code security, trust hygiene, runtime defense, credential protection, Web3 protection, and configuration posture, producing a visual report.
+Checkup evaluates code security, trust hygiene, runtime defense, credential protection, blockchain protection, and configuration posture, producing a visual report.
 
 These workflows help teams identify changes and maintenance needs beyond a single blocked action.
 

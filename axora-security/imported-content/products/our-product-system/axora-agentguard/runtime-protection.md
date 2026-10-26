@@ -10,9 +10,9 @@ AgentGuard evaluates an agent's proposed actions before execution on supported i
 
 Supported action categories include shell commands, file reads and writes, network requests, web searches, browser operations, MCP tools, skill installation, and deployment activity. LLM traffic inspection is available according to the host's integration capability.
 
-Risk checks cover activities such as destructive commands, system-path modification, remote code execution, credential access, and data exfiltration. Other documented checks include unpinned remote execution, webhook egress, Web3 transactions and signatures, and social-account modification.
+Risk checks cover activities such as destructive commands, system-path modification, remote code execution, credential access, and data exfiltration. Other documented checks include unpinned remote execution, webhook egress, blockchain transactions and signatures, and social-account modification.
 
-Web3 checks use GoPlus transaction simulation and phishing-address intelligence. Their availability depends on the delivered integration and deployment configuration.
+Blockchain transaction checks use transaction simulation and phishing-address intelligence. Their availability depends on the delivered integration and deployment configuration.
 
 Network-behavior checks include request bursts, replay, unusual-time activity, malicious scripts in responses, and credential exposure in returned output.
 
